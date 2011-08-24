@@ -1,0 +1,108 @@
+body{
+	width:960px;
+	margin:20px 20px;
+	background-color:#ffffff;
+}
+
+header{
+	width:960px;
+	height:110px;
+	background-color:#ffffff;
+	padding:20px 20px;
+}
+
+h1{
+	font-family:"Gotham"; 
+	width:220px;
+	height: 70px;
+	float: left;
+	margin-right:40px; 
+}
+
+
+
+ul{
+	height:70px;
+	width:940px;	
+	list-style: none outside none;
+	margin:0px;
+	padding:0px;
+	
+}
+
+a:link {
+	color:#666666;
+	text-decoration: none;}
+	    /* unvisited link */
+a:visited {
+	color:#666666;
+	text-decoration: none;
+} /* visited link */
+
+a:hover {
+	color:#000000;
+	text-decoration: none;
+}   /* mouse over link */
+
+a:active {
+	color:#666666;
+	text-decoration: none;
+}  /* selected link */
+
+
+li {
+    color: #666666;
+    display: inline;
+    font-family: "Gotham";
+    font-size: 80%;
+    height: 70px;
+    line-height: 70px;
+    list-style: none outside none;
+    padding: 0 28px;
+    text-align: right;
+    width: 150px;
+}
+
+.content{
+	width:960px;
+	height:550px;
+	margin:20px 20px;
+	background-color:#ffffff;
+}
+
+.about{
+	font-family:"Arial";
+	font-size: 100%;
+	color:#666666;
+	width:460px;
+	padding:20px 20px;
+	float:left;
+	width:530px;
+	height:550px;
+}
+
+nav{
+	width:960px;
+	height:70px;
+	display: inline;
+	padding: 0px 0px;
+	line-height: 40px; 
+	float:left;
+}
+	
+footer{
+	font-family:"Arial";
+	font-size: 60%;
+	color:#666666;
+	text-align: justify; 
+	width:960px;
+	height:110px;
+	background-color:#ffffff;
+	margin:20px 20px;
+    padding: 0px 0px;
+ 
+}
+
+.rightpad{
+	padding-right:90px;
+	}	

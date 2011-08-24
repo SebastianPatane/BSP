@@ -1,0 +1,325 @@
+@font-face {
+	font-family: 'Gotham';
+	src:url('../font/gothambook-webfont.eot'); /* IE9 Compat Modes */
+	src:url('../font/gothambook-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('../font/gothambook-webfont.woff') format('woff'), /* Modern Browsers */
+	     url('../font/gothambook-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+	     url('.../font/gothambook-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+	    font-weight: normal;
+	    font-style: normal;
+}
+
+/* STRUCTURE */
+body {
+	background-color: #FFFFFF;
+    margin: 20px auto;
+    padding: 0 30px;
+    width: 900px;
+    font-family:Arial, sans-serif;
+    color:#666666;
+}
+
+header {
+	height: 90px;
+	font-family: 'Gotham', Courier, sans-serif;
+	padding-bottom: 5px;
+}	
+
+.content {
+}
+
+footer {
+	font-size: 10px;
+	margin:18px 0 0 0;
+}
+/* HEADER */
+
+h1 {
+	width:220px;
+	height: 70px;
+	float: left;
+	background-image:url('../img/content/DavdGFlatt_logo.jpg'); 
+	text-indent:-9999em;
+	margin:0;
+}
+
+h1 a {
+	display: block;
+	width:220px;
+	height:70px;
+	position: absolute;
+}
+
+header .the_weylan_touch { 
+    float: right;
+    height: 20px;
+    margin: 10px 0;
+    width: 600px;
+}
+	
+header .wayline { 
+	height: 1px; 
+	background:  #adadad;
+}
+
+header .wayline:nth-of-type(1) { 
+	margin-right: 600px;  
+}
+
+header .wayline:nth-of-type(2) { 
+	margin-left: 500px; margin-top: 3px; 
+}
+
+header .wayline:nth-of-type(3) {  
+	margin-left: 400px; margin-top: 4px; 
+}
+
+header .wayline:nth-of-type(4) {  
+	margin-left: 300px; margin-top: 3px; 
+}
+
+header .wayline:nth-of-type(5) {  
+	margin-left: 200px; margin-top: 2px; 
+}
+
+header .wayline:nth-of-type(6) {  
+	margin-left: 100px; margin-top: 2px; 
+	}
+
+
+/* NAV */
+
+header ul {
+	float: right;
+    font-family: 'Gotham', Courier, sans-serif;
+    font-size: 11px;
+    list-style: none outside none;
+    margin: 30px 0 0;
+    padding: 0;
+    letter-spacing: 2px;
+	
+}
+
+header li{
+	float: left;
+    margin-left: 45px;
+	-webkit-transition: opacity 1s linear;
+	-moz-transition: opacity 1s linear;
+}
+
+header li:first-child {
+	margin-left: 0px;
+}
+
+/* FOOTER */
+
+nav {
+	width:300px;
+	padding: 0px;
+	float:left;
+}
+	
+footer p {
+	margin: 0;
+	float: right;
+}	
+
+footer .the_weylan_touch { 
+	height: 20px; 
+	width: 600px; 
+	margin: -2px 0 10px;
+	float: left;
+}
+	
+footer .wayline { 
+	height: 1px; 
+	background:  #adadad;
+}
+
+footer .wayline:nth-of-type(1) { 
+	margin-right: 600px;  
+}
+
+footer .wayline:nth-of-type(2) { 
+	margin-right: 500px; margin-top: 4px; 
+}
+
+footer .wayline:nth-of-type(3) {  
+	margin-right: 400px; margin-top: 3px; 
+}
+
+footer .wayline:nth-of-type(4) {  
+	margin-right: 300px; margin-top: 2px; 
+}
+
+footer .wayline:nth-of-type(5) {  
+	margin-right: 200px; margin-top: 2px; 
+}
+
+footer .wayline:nth-of-type(6) {  
+	margin-right: 100px; margin-top: 3px; 	
+}
+	
+
+	
+/* REUSABLE */
+
+a:link {
+	color:#666666;
+	text-decoration: none;
+} /* unvisited link */
+a:visited {
+	color:#666666;
+	text-decoration: none;
+} /* visited link */
+
+a:hover {
+	color:#000000;
+	text-decoration: none;
+	font-weight: bolder;
+}   /* mouse over link */
+
+a:active {
+	color:#666666;
+	text-decoration: none;
+}  /* selected link */
+
+.opacity {
+	opacity: .4;
+	-webkit-transition: opacity 1s linear;
+	-moz-transition: opacity 1s linear;
+	transition: opacity 1s linear;
+	
+}
+
+.opacity:hover {
+	opacity: 1;
+}
+
+.clearfix {
+	clear: both;
+}
+
+strong {
+	color: #000000;
+}
+
+.thumb {
+	height: 148px;
+	width:148px;
+	border: 1px solid white;
+	float:left;
+}
+
+.space {
+	margin: 140px 0 0;
+}
+
+.arrow_left {
+    border-bottom: 5px solid transparent;
+    border-right: 5px solid grey;
+    border-top: 5px solid transparent;
+    float: left;
+    height: 0;
+    width: 0;
+}
+
+.arrow_right {
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid grey;
+    border-top: 5px solid transparent;
+    float: right;
+    height: 0;
+    width: 0;
+  }
+
+
+/* HOME */
+
+#home img {
+	float: left;
+}
+
+
+/*ABOUT */
+
+.about {
+    float: left;
+    font-size: 12px;
+    line-height: 20.9px;
+    padding-right: 35px;
+    width: 545px;
+}
+
+.about p {
+	margin-bottom: 22px;
+}
+ 
+#about img {
+	float: right;
+} 
+
+/* CONTACT */
+
+.contact{
+	width:270px;
+	float:right;
+	font-size: 14px;
+	padding-top: 8px;
+	text-indent: -90px;
+	letter-spacing: 0.2px;
+}
+
+.contact.strong{
+	font-style: bold;
+	padding-left: 40px;	
+	padding-right: 90px;	
+}
+
+.indent {
+	text-indent: -70px;
+	line-height: 8px;
+}
+
+.height {
+	margin: 18px 0 0;
+}
+
+/* EXHIBITS */
+
+.exhibits nav{
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	width:80px;
+	padding: 10px 410px 0px;
+	text-align: center;
+	letter-spacing: 4px;
+	
+}
+
+/* CHAIRS */
+
+.chairs nav {
+    font-family: Arial,sans-serif;
+    font-size: 11px;
+    letter-spacing: 4px;
+    padding: 10px 410px 0px;
+    text-align: center;
+    width: 80px;
+}
+	
+
+/* FURNITURE */
+
+/* RENTAL */
+
+.product_menu {
+    padding: 0;
+	letter-spacing: 3px;
+	font-family: "Gotham", Arial, sans-serif;
+	float:right;
+	font-size:9px;
+	padding-bottom: 15px;
+	list-style: none outside none;
+}	
+	
