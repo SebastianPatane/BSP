@@ -4,6 +4,24 @@
 		<title>DAVID G. FLATT, LTD</title>
 		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<script type="text/javascript" src="js/highslide-with-gallery.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/highslide.css" />
+		<script type="text/javascript">
+    	// override Highslide settings here
+    	// instead of editing the highslide.js file
+    	hs.graphicsDir = 'js/graphics/';
+    	hs.showCredits = false;
+		//hs.outlineType = 'custom';
+		hs.dimmingOpacity = 0.8;
+		hs.align = 'center';
+		hs.captionEval = 'this.a.title';
+		hs.registerOverlay({
+			html: '<div class="close-simple-white" onclick="return hs.close(this)" title="Close"></div>',
+			position: 'top right',
+			useOnHtml: true,
+			fade: 2 // fading the semi-transparent overlay looks bad in IE
+		});
+		</script>
 	</head>
 	<body>
 		<header>
@@ -44,42 +62,68 @@
 				</li>	
 			</ul>
 		<div class="the_weylan_touch">
-			<div class="wayline"></div>
-			<div class="wayline"></div>
-			<div class="wayline"></div>
-			<div class="wayline"></div>
-			<div class="wayline"></div>
-			<div class="wayline"></div>
+			<div class="wayline" style="background-color: #000000; margin-left: 200px"></div>
+			<div class="wayline" style="margin-left: 80px"></div>
+			<div class="wayline" style="margin-left: 260px"></div>
+			<div class="wayline" style="margin-left: 50px"></div>
+			<div class="wayline" style="margin-left: 20px"></div>
+			<div class="wayline" style="margin-left: 375px"></div>
 		</div>
 		<div class="clearfix">
 		</div>
 		</header>		
 		<div class="content" id="furniture">
 			<div class="furniture">
-				<img class="thumb opacity" src="img/products/furniture/furniture_thumb_1.jpg" alt="furniture 1" />
-				<img class="thumb opacity" src="img/products/furniture/furniture_thumb_2.jpg" alt="furniture 2" />
-				<img class="thumb opacity" src="img/products/furniture/furniture_thumb_3.jpg" alt="furniture 3" />
-				<img class="thumb opacity" src="img/products/furniture/furniture_thumb_4.jpg" alt="furniture 4" />
-				<img class="thumb opacity" src="img/products/furniture/furniture_thumb_5.jpg" alt="furniture 5" />
-				<img class="thumb opacity" src="img/products/furniture/furniture_thumb_6.jpg" alt="furniture 6" />
-				<img class="thumb opacity" src="img/products/furniture/furniture_thumb_7.jpg" alt="furniture 7" />
-				<img class="thumb opacity" src="img/products/furniture/furniture_thumb_8.jpg" alt="furniture 8" />
-				<img class="thumb opacity" src="img/products/furniture/furniture_thumb_9.jpg" alt="furniture 9" />
-				<img class="thumb opacity" src="img/products/furniture/furniture_thumb_10.jpg" alt="furniture 10" />
-				<img class="thumb opacity" src="img/products/furniture/furniture_thumb_11.jpg" alt="furniture 11" />
-				<img class="thumb opacity" src="img/products/furniture/furniture_thumb_12.jpg" alt="furniture 12" />
+				<a href="img/products/furniture/furniture_1.jpg" class="highslide" onclick="return hs.expand(this)" title="">
+    				<img class="thumb opacity" src="img/products/furniture/furniture_thumb_1.jpg" alt="furniture 1" />
+    				<!-- img src="images/thumbnail.jpg" alt="Highslide JS" title="Click to enlarge" height="120" width="107" /-->
+        		</a>
+				<!-- img class="thumb opacity" src="img/products/furniture/furniture_thumb_1.jpg" alt="furniture 1" /-->
+				<a href="img/products/furniture/furniture_2.jpg" class="highslide" onclick="return hs.expand(this)" title="">
+    				<img class="thumb opacity" src="img/products/furniture/furniture_thumb_2.jpg" alt="furniture 2" />
+				</a>
+				<a href="img/products/furniture/furniture_3.jpg" class="highslide" onclick="return hs.expand(this)" title="">
+    				<img class="thumb opacity" src="img/products/furniture/furniture_thumb_3.jpg" alt="furniture 3" />
+    			</a>	
+    			<a href="img/products/furniture/furniture_4.jpg" class="highslide" onclick="return hs.expand(this)" title="">
+    				<img class="thumb opacity" src="img/products/furniture/furniture_thumb_4.jpg" alt="furniture 4" />
+    			</a>	
+				<a href="img/products/furniture/furniture_5.jpg" class="highslide" onclick="return hs.expand(this)" title="">
+    				<img class="thumb opacity" src="img/products/furniture/furniture_thumb_5.jpg" alt="furniture 5" />
+    			</a>	
+    			<a href="img/products/furniture/furniture_6.jpg" class="highslide" onclick="return hs.expand(this)" title="">
+    				<img class="thumb opacity" src="img/products/furniture/furniture_thumb_6.jpg" alt="furniture 6" />
+    			</a>					
+    			<a href="img/products/furniture/furniture_7.jpg" class="highslide" onclick="return hs.expand(this)" title="">
+    				<img class="thumb opacity" src="img/products/furniture/furniture_thumb_7.jpg" alt="furniture 7" />
+    			</a>
+    			<a href="img/products/furniture/furniture_8.jpg" class="highslide" onclick="return hs.expand(this)" title="">
+    				<img class="thumb opacity" src="img/products/furniture/furniture_thumb_8.jpg" alt="furniture 8" />
+    			</a>		
+				<a href="img/products/furniture/furniture_9.jpg" class="highslide" onclick="return hs.expand(this)" title="">
+    				<img class="thumb opacity" src="img/products/furniture/furniture_thumb_9.jpg" alt="furniture 9" />
+    			</a>	
+				<a href="img/products/furniture/furniture_10.jpg" class="highslide" onclick="return hs.expand(this)" title="">
+    				<img class="thumb opacity" src="img/products/furniture/furniture_thumb_10.jpg" alt="furniture 10" />
+    			</a>	
+   				<a href="img/products/furniture/furniture_11.jpg" class="highslide" onclick="return hs.expand(this)" title="">
+    				<img class="thumb opacity" src="img/products/furniture/furniture_thumb_11.jpg" alt="furniture 11" />
+    			</a>	 			
+				<a href="img/products/furniture/furniture_12.jpg" class="highslide" onclick="return hs.expand(this)" title="">
+    				<img class="thumb opacity" src="img/products/furniture/furniture_thumb_12.jpg" alt="furniture 12" />
+    			</a>	
 			</div>
 			<div class="clearfix">
 			</div>
 		</div>	
 		<footer class="space">
 			<div class="the_weylan_touch">
-				<div class="wayline"></div>
-				<div class="wayline"></div>
-				<div class="wayline"></div>
-				<div class="wayline"></div>
-				<div class="wayline"></div>
-				<div class="wayline"></div>
+			<div class="wayline" style="margin-right: 200px"></div>
+			<div class="wayline" style="margin-right: 80px"></div>
+			<div class="wayline" style="margin-right: 260px"></div>
+			<div class="wayline" style="margin-right: 50px"></div>
+			<div class="wayline" style="margin-right: 20px"></div>
+			<div class="wayline" style="margin-right: 375px"></div>
 			</div>
 			<div class="clearfix">
 			</div>			

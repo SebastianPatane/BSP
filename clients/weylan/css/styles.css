@@ -63,7 +63,7 @@ header .wayline {
 }
 
 header .wayline:nth-of-type(1) { 
-	margin-right: 600px;  
+	margin-left: 600px;  
 }
 
 header .wayline:nth-of-type(2) { 
@@ -173,6 +173,7 @@ a:visited {
 	text-decoration: none;
 } /* visited link */
 
+
 a:hover {
 	color:#000000;
 	text-decoration: none;
@@ -180,9 +181,13 @@ a:hover {
 }   /* mouse over link */
 
 a:active {
-	color:#666666;
+	color:#000000;
 	text-decoration: none;
 }  /* selected link */
+
+a:link.selected, a:visited.selected, a:active.selected {
+	color:#000000;
+}
 
 .opacity {
 	opacity: .4;
@@ -219,23 +224,24 @@ a:active {
 }
 
 .arrow_left {
-    border-bottom: 5px solid transparent;
-    border-right: 5px solid grey;
-    border-top: 5px solid transparent;
+    border-color: transparent grey transparent transparent;
+    border-style: solid;
+    border-width: 5px;
     display: inline-block;
     height: 0;
+    margin-top: -2px;
+    vertical-align: middle;
     width: 0;
-    margin-top: 1px;
 }
 
 .arrow_right {
-    border-bottom: 5px solid transparent;
-    border-left: 5px solid grey;
-    border-top: 5px solid transparent;
+    border-color: transparent transparent transparent grey;
+    border-style: solid;
+    border-width: 5px;
     display: inline-block;
     height: 0;
+    vertical-align: middle;
     width: 0;
-    margin-top: 2px;
 }
  
 .arrow_left:hover {

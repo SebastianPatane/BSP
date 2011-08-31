@@ -1,0 +1,39 @@
+.highslide-wrapper, .highslide-outline {
+	background: #FFFFFF;
+}
+.highslide img {
+	border: 1px solid #D0D0D0;
+}
+.highslide:hover img {
+	border-color: #A0A0A0;
+}
+.highslide-dimming {
+	background: #000000;
+}
+.highslide-image {
+	border: 20px solid #FFFFFF;
+}
+.highslide-caption {
+	padding: 0px;
+	padding-right: 2px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+.highslide-loading {
+	display: block;
+	padding: 3px 0 3px 22px;
+	width: 0;
+	height: 16px;
+	overflow: hidden;
+	background-color: white;
+	background-repeat: no-repeat;
+	background-position: 3px 3px;
+	background-image: url("../js/graphics/loader.white.gif");
+}
+
+.close-simple-white {
+	width: 16px;
+	height: 16px;
+	background: white url("../js/graphics/controlbar-text-buttons.png") 0 -221px;
+	cursor: pointer;
+}
